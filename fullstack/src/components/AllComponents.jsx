@@ -13,7 +13,7 @@ function AllComponents(props) {
                 <Route index element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/login" element={<Login />} />
-                <Route path='/Register' element={<Register />} />
+                <Route path='/register' element={<Register />} />
                 {/* <Route path="/blog" element={<Blog />} /> */}
                 {/* <Route path="*" element={<NoPage />} /> */}
                 <Route path="*" element={"404"} />
